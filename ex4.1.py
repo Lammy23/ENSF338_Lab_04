@@ -3,12 +3,6 @@ def processdata(li):
         if li[i] > 5:
             for j in range(len(li)):
                 li[i] *= 2
-    print (li)
-
-list = [10,12,13,14,14,5]
-
-
-processdata(list)
 
 # Q 4.1) State and justify what is the best, worst and average case
 #        complexity for the code in the previous slide [0.2 pts]
@@ -29,6 +23,4 @@ def processdatanew(li):
     for i in range(len(li)):
             for j in range(len(li)):
                 li[i] *= 2
-    print (li)
 
-processdatanew(list)
