@@ -23,4 +23,3 @@ def processdatanew(li):
     for i in range(len(li)):
             for j in range(len(li)):
                 li[i] *= 2
-
